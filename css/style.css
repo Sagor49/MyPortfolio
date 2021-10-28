@@ -1,0 +1,203 @@
+.side-bar{
+    background-color: #bd5d38;
+    width: 280px !important;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.sidebar-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side-bar img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #dc392d;
+   
+}
+.navbar-section ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-section li{
+   
+    padding: 8px 0px;
+ }
+
+.navbar-section a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    font-weight: 620;
+    
+}
+/* about-part */
+.about-part{
+    background-color: #fff;
+    border-bottom: 1px solid #343a40; 
+    padding: 120px 0;
+   
+   
+}
+.wrapper{
+    margin-left: 320px;
+}
+.name-text{
+    font-size: 66px;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #343a40;
+    
+}
+.name-text1{
+    font-size: 66px;
+    font-family: 'Zen Antique Soft', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #bd5d38;
+}
+.about-part a{
+    color: #bd5d38; 
+   
+}
+.about-part p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: #6c757d;
+    font-size: 20px;
+}
+.about-text{
+    color: #6c757d;
+    font-size: 18px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon-item a{
+    width: 50px;
+    height: 50px;
+    background-color: #343a40;
+    color: #eee;
+    font-size: 23px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
+}
+.icon-item a:hover{
+    background-color: #bd5d38;
+    
+}
+/* experience */
+.experience-item h1{
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.timeitem{
+    color: orangered;
+    float: right;
+    margin-right: 30px;
+}
+.tittle-head{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+.institute-name{
+    font-size: 23px;
+    color: #6c757d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.col-textitem{
+    font-size: 17px;
+    color: #6c757d;
+    font-family:  sans-serif;
+}
+ /* education */
+
+ .education-item h1{
+    font-weight: 700;
+    margin-top: 90px;
+    font-family: 'Zen Antique Soft', serif;
+}
+.education-result{
+    font-size: 17px;
+    color: #6c757d;
+    font-family:  sans-serif;
+    
+}
+/* skill-item */
+.skill-item h1{
+    font-weight: 700;
+    margin-top: 90px;
+    font-family: 'Zen Antique Soft', serif;
+}
+.work-text{
+    color: #6c757d;
+    font-family:  sans-serif;
+}
+.workflow-icon{
+    color: #6c757d;
+    font-family:  sans-serif;
+    padding: 0 8px;
+}
+/* intrarest-item */
+.intrarest-item h1{
+    font-weight: 700;
+    margin-top: 120px;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+/* AWARDS & CERTIFICATIONS */
+
+.award-item h1{
+    font-weight: 700;
+    margin-top: 120px;
+    font-family: 'Zen Antique Soft', serif;
+}
+.award-icon{
+    color: #6c757d;
+    font-family:  sans-serif;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    
+}
+.icon-color{
+    color: #ffc107;
+    
+}
+
+
+
+
+
+
+
+
+.navbar{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .side-bar{
+        display: none;
+    }
+    .wrapper{
+       margin-left: 20px;
+    }
+    .navbar{
+        display: block;
+        background: #bd5d38 ;
+
+    }
+}
